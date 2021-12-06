@@ -7,6 +7,11 @@ body {
   background-color: #8c8c8c;
 }
 
+.section {
+  margin: 100px 20px;
+  padding: 60px;
+}
+
 .titulos {
   padding-top: 30px;
   margin: 10px 10px;
@@ -32,6 +37,11 @@ body {
   margin: 30px 30px;
   display: flex;
   justify-content: center;
+}
+
+.section {
+  margin: 100px 20px;
+  padding: 60px;
 }
 
 * {
@@ -81,12 +91,9 @@ h1 {
   margin: 50px;
 }
 
-.section {
-  margin: 100px 20px;
-}
-
 .parrafoAboutme {
   display: flex;
+  justify-content: center;
 }
 
 .box {
@@ -132,12 +139,17 @@ h1 {
 
 .parrafo-pack {
   position: relative;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .image-medio {
   margin-top: 100px;
   margin-left: 50px;
+}
+
+.video {
+  margin-top: 100px;
 }
 
 .menu-foot {
