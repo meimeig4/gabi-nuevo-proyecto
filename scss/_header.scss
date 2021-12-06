@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'listas';
+
+header {
+  width: 100%;
+  nav {
+    ul {
+      li {
+        a {
+          font-family: 'Roboto', sans-serif;
+          &:hover {
+            background-color: nth($bg-colores, 4);
+            border-radius: 12px;
+            padding: $padding-general;
+          }
+          text-decoration: none;
+          color: nth($text-colores, 4);
+        }
+      }
+    }
+  }
+}

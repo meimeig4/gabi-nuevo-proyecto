@@ -1,0 +1,9 @@
+$bg-colores: #4444, #635a66, #8c8c8c, #909c9e;
+
+$text-colores: #c3fd0d, #dda1c3, black, #ffff;
+
+body {
+  background-color: nth($bg-colores, 3);
+}
+
+
