@@ -23,10 +23,20 @@ body { background-image: url("../multimedia/3d-blanco-esfera.jpg");
 .logoG4bit {
   display: flex;
   justify-content: left;
+  margin-left: 60px;
 }
 
 
 .titulo-header {  font-family:'Roboto', sans-serif; font-size: $font-size-nav; margin: $margin-menor;}
+
+
+.c-img { 
+width: 95%;
+position: relative;
+display:flex ;
+align-items: center;}
+
+.txt { text-align: center; position: absolute;}
 
 .titulos {
   &:hover {
@@ -38,8 +48,10 @@ body { background-image: url("../multimedia/3d-blanco-esfera.jpg");
 h1 { color: nth($text-colores, 1 );
   font-size: $font-size-titulos;
   text-decoration: none;
-  font-family:'Roboto', sans-serif;;
-margin-right: 300px;
+  font-family:'Roboto', sans-serif;
+  display: flex; align-items: flex-start;
+  margin-right: 800px;
+  margin-left: 150px;
    
 }
 
@@ -67,7 +79,7 @@ margin-right: 300px;
   
   border-radius: 6px;
   color: nth($bg-colores, 4);
-  height: 500px;
+  height: 600px;
   width: 500px;
   padding: 50px 500px; 
   display: flex; justify-content: center;
@@ -86,10 +98,12 @@ margin-right: 300px;
 
 .titulos-packs { margin: $margin-general ; text-align: center;}
 
-.parrafo-promo {  padding-left: 90px; font-size: 26px; margin: $margin-general;}
+.encabezado-pack { display: flex; }
+
+.parrafo-promo {  padding-left: 90px; font-size: 26px; margin: $margin-general; display: flex; align-items: center;}
 
 
-.parrafo-pack { position: relative; display: flex;justify-content: center;}
+.parrafo-pack { position: relative; display: flex; align-items: center;}
 
 .image-medio { margin-top: 100px;margin-left: 50px; }
 

@@ -64,12 +64,25 @@ body {
 .logoG4bit {
   display: flex;
   justify-content: left;
+  margin-left: 60px;
 }
 
 .titulo-header {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   margin: 10px 10px;
+}
+
+.c-img {
+  width: 95%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.txt {
+  text-align: center;
+  position: absolute;
 }
 
 .titulos:hover {
@@ -82,7 +95,10 @@ h1 {
   font-size: 40px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  margin-right: 300px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 800px;
+  margin-left: 150px;
 }
 
 #sectionOne {
@@ -107,7 +123,7 @@ h1 {
 .box3 {
   border-radius: 6px;
   color: #909c9e;
-  height: 500px;
+  height: 600px;
   width: 500px;
   padding: 50px 500px;
   display: flex;
@@ -131,16 +147,22 @@ h1 {
   text-align: center;
 }
 
+.encabezado-pack {
+  display: flex;
+}
+
 .parrafo-promo {
   padding-left: 90px;
   font-size: 26px;
   margin: 30px 30px;
+  display: flex;
+  align-items: center;
 }
 
 .parrafo-pack {
   position: relative;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .image-medio {
