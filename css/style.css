@@ -26,6 +26,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 60px;
   margin-left: 70px;
+  margin-top: 40px;
   display: flex;
   justify-content: right;
 }
@@ -73,8 +74,23 @@ body {
   margin: 10px 10px;
 }
 
+header {
+  width: 100%;
+}
+header nav ul li a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #ffff;
+}
+header nav ul li a:hover {
+  background-color: #909c9e;
+  border-radius: 12px;
+  padding: 10px 10px;
+}
+
 .c-img {
   width: 95%;
+  height: auto;
   position: relative;
   display: flex;
   align-items: center;
@@ -102,9 +118,7 @@ h1 {
 }
 
 #sectionOne {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
+  height: 50vh;
 }
 
 .parrafoAboutme {
@@ -172,6 +186,13 @@ h1 {
 
 .video {
   margin-top: 100px;
+}
+
+.grupo-2 {
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .menu-foot {

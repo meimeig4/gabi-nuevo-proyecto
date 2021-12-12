@@ -29,9 +29,28 @@ body { background-image: url("../multimedia/3d-blanco-esfera.jpg");
 
 .titulo-header {  font-family:'Roboto', sans-serif; font-size: $font-size-nav; margin: $margin-menor;}
 
-
+header {
+  width: 100%;
+  nav {
+    ul {
+      li {
+        a {
+          font-family: 'Roboto', sans-serif;
+          &:hover {
+            background-color: nth($bg-colores, 4);
+            border-radius: 12px;
+            padding: $padding-general;
+          }
+          text-decoration: none;
+          color: nth($text-colores, 4);
+        }
+      }
+    }
+  }
+}
 .c-img { 
 width: 95%;
+height: auto;
 position: relative;
 display:flex ;
 align-items: center;}
@@ -55,10 +74,8 @@ h1 { color: nth($text-colores, 1 );
    
 }
 
-#sectionOne {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
+#sectionOne { height: 50vh; 
+
 }
 
 
@@ -108,6 +125,13 @@ h1 { color: nth($text-colores, 1 );
 .image-medio { margin-top: 100px;margin-left: 50px; }
 
 .video { margin-top: 100px;}
+
+
+ 
+ .grupo-2 { padding: 15px 10px; display: flex; align-items: center;
+text-align: center; }
+
+
 
 .menu-foot { display: flex; align-items: center;}
 
