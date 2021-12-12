@@ -127,9 +127,14 @@ h1 { color: nth($text-colores, 1 );
  .grupo-2 { padding: 15px 10px; display: flex; align-items: center;
 text-align: center; }
 
+<<<<<<< HEAD
 footer {   background: nth($bg-colores , 2 );  height: auto; width: 100w; font-family: 'Poppins', sans-serif;
 padding-top: 40px;color: nth($text-colores, 4 );}
 
+=======
+footer { height: auto; width: 100w; font-family: 'Poppins', sans-serif;
+padding-top: 40px;color: nth($text-colores, 4 );}
+>>>>>>> rama-footer
 .footer-content { display: flex;
 align-items: center;
 justify-content: center; flex-direction: column;
@@ -165,7 +170,6 @@ text-transform: capitalize;}
 
 
 
-.menu-foot { display: flex; align-items: center;}
 
 .contacto {
   text-shadow: rgb(82, 82, 83);
