@@ -4,11 +4,12 @@
 @import 'mixins';
 
 
+
+
 %titulos {
   padding-top: 30px;
   margin: $margin-menor;
   font-size: $font-size-titulos;
-  // color: nth($colores, 5);
   color: nth($text-colores, 1);
   font-family: 'Roboto', sans-serif;
 }

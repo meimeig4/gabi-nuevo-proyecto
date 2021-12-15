@@ -27,30 +27,28 @@ body { background-image: url("../multimedia/3d-blanco-esfera.jpg");
   margin-left: 60px;
 }
 
+.bg-nav { color: nth($bg-colores , 2 ); font-size: 15px;}
 
-.titulo-header {  font-family:'Roboto', sans-serif; font-size: $font-size-nav; margin: $margin-menor;}
+#section0 { background-color: nth($bg-colores, 1); height: 50px;  margin-bottom: 100px;}
 
-header {
-  width: 100%;
-  nav {
+.item-nav { color: nth($text-colores , 1 );}
+section{   width: 100%;
+  
     ul {
       li {
-        a {
+        a {  
+          color: nth($text-colores, 1);
           font-family: 'Roboto', sans-serif;
           &:hover {
             background-color: nth($bg-colores, 4);
-            border-radius: 12px;
+            border-radius: 20px;
             padding: $padding-general;
           }
-          text-decoration: none;
-          color: nth($text-colores, 4);
+         
         }
       }
     }
   }
-}
-
-
 
 
 .titulos {
@@ -62,13 +60,13 @@ header {
 
 h1 { color: nth($text-colores, 1 );
   font-size: $font-size-titulos;
-  text-decoration: none;
   font-family:'Roboto', sans-serif;
-  display: flex; align-items: flex-start;
-  margin-right: 800px;
-  margin-left: 150px;
-   
+  display: flex; justify-content: center;
+margin-right: 500px;
+padding-top: 20px;
 }
+
+.bg-nav {background-color: nth($bg-colores , 2 );}
 
 #sectionOne { height: 50vh; 
 
@@ -88,6 +86,7 @@ h1 { color: nth($text-colores, 1 );
   margin: 60px auto;
 
 }
+
 .box3 {
   
   border-radius: 6px;
@@ -97,7 +96,6 @@ h1 { color: nth($text-colores, 1 );
   padding: 50px 500px; 
   display: flex; justify-content: center;
   
- 
 }
 
 .box2 { border-radius: 6px;
@@ -113,7 +111,7 @@ h1 { color: nth($text-colores, 1 );
 
 .encabezado-pack { display: flex; }
 
-.parrafo-promo {  padding-left: 90px; font-size: 26px; margin: $margin-general; display: flex; align-items: center;}
+.parrafo-promo { padding-left: 90px; font-size: 26px; margin: $margin-general; display: flex; align-items: center;}
 
 
 .parrafo-pack { position: relative; display: flex; align-items: center;}
@@ -127,14 +125,14 @@ h1 { color: nth($text-colores, 1 );
  .grupo-2 { padding: 15px 10px; display: flex; align-items: center;
 text-align: center; }
 
-<<<<<<< HEAD
-footer {   background: nth($bg-colores , 2 );  height: auto; width: 100w; font-family: 'Poppins', sans-serif;
+
+footer { background: nth($bg-colores , 2 );  height: auto; width: 100w; font-family: 'Poppins', sans-serif;
 padding-top: 40px;color: nth($text-colores, 4 );}
 
-=======
+
 footer { height: auto; width: 100w; font-family: 'Poppins', sans-serif;
 padding-top: 40px;color: nth($text-colores, 4 );}
->>>>>>> rama-footer
+
 .footer-content { display: flex;
 align-items: center;
 justify-content: center; flex-direction: column;

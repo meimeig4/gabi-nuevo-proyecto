@@ -1,17 +1,277 @@
-/* Error: expected selector.
- *     ,
- * 130 | <<<<<<< HEAD
- *     | ^
- *     '
- *   scss/style.scss 130:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected selector.\a     \2577 \a 130 \2502  <<<<<<< HEAD\a     \2502  ^\a     \2575 \a   scss/style.scss 130:1  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,500&display=swap");
+body {
+  background-color: #8c8c8c;
 }
+
+footer {
+  background: #635a66;
+}
+
+body {
+  background-color: #8c8c8c;
+}
+
+footer {
+  background: #635a66;
+}
+
+.section {
+  margin: 100px 20px;
+  padding: 60px;
+}
+
+.titulos {
+  padding-top: 30px;
+  margin: 10px 10px;
+  font-size: 40px;
+  color: #c3fd0d;
+  font-family: "Roboto", sans-serif;
+}
+
+.titulo-footer {
+  font-size: 17px;
+  color: #c3fd0d;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 60px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.parrafos {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: black;
+  margin: 30px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  margin: 100px 20px;
+  padding: 60px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../multimedia/3d-blanco-esfera.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+}
+
+.logoG4bit {
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+}
+
+.bg-nav {
+  color: #635a66;
+  font-size: 15px;
+}
+
+#section0 {
+  background-color: #4444;
+  height: 50px;
+  margin-bottom: 100px;
+}
+
+.item-nav {
+  color: #c3fd0d;
+}
+
+section {
+  width: 100%;
+}
+section ul li a {
+  color: #c3fd0d;
+  font-family: "Roboto", sans-serif;
+}
+section ul li a:hover {
+  background-color: #909c9e;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.titulos:hover {
+  transform: translate(10px, 10px);
+  transition: all 1s ease-in-out;
+}
+
+h1 {
+  color: #c3fd0d;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-right: 500px;
+  padding-top: 20px;
+}
+
+.bg-nav {
+  background-color: #635a66;
+}
+
+#sectionOne {
+  height: 50vh;
+}
+
+.parrafoAboutme {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border-radius: 6px;
+  color: #909c9e;
+  height: 400px;
+  width: 500px;
+  margin: 60px auto;
+}
+
+.box3 {
+  border-radius: 6px;
+  color: #909c9e;
+  height: 600px;
+  width: 500px;
+  padding: 50px 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.box2 {
+  border-radius: 6px;
+  color: #909c9e;
+  height: 300px;
+  width: 500px;
+  margin-right: 100px;
+}
+
+.boton {
+  margin: 30px 90px;
+}
+
+.titulos-packs {
+  margin: 30px 30px;
+  text-align: center;
+}
+
+.encabezado-pack {
+  display: flex;
+}
+
+.parrafo-promo {
+  padding-left: 90px;
+  font-size: 26px;
+  margin: 30px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.parrafo-pack {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.image-medio {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.video {
+  margin-top: 100px;
+}
+
+.grupo-2 {
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  background: #635a66;
+  height: auto;
+  width: 100w;
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+  color: #ffff;
+}
+
+footer {
+  height: auto;
+  width: 100w;
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+  color: #ffff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content img {
+  width: 30px;
+  height: auto;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0px 10px;
+}
+
+.footer-bottom {
+  width: 100vw;
+  padding: 20px opx;
+  text-align: center;
+}
+
+footer-bottom small {
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.contacto {
+  text-shadow: #525253;
+  text-decoration: none;
+}
+
+.f1 {
+  margin: 30px 30px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
