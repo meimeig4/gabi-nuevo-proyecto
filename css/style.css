@@ -16,7 +16,7 @@ footer {
 }
 
 .section {
-  margin: 100px 20px;
+  margin: 200px 20px;
   padding: 60px;
 }
 
@@ -47,7 +47,7 @@ footer {
 }
 
 .section {
-  margin: 100px 20px;
+  margin: 200px 20px;
   padding: 60px;
 }
 
@@ -157,10 +157,6 @@ h1 {
   margin-right: 100px;
 }
 
-.boton {
-  margin: 30px 90px;
-}
-
 .titulos-packs {
   margin: 30px 30px;
   text-align: center;
@@ -203,15 +199,7 @@ h1 {
 footer {
   background: #635a66;
   height: auto;
-  width: 100w;
-  font-family: "Poppins", sans-serif;
-  padding-top: 40px;
-  color: #ffff;
-}
-
-footer {
-  height: auto;
-  width: 100w;
+  width: 100vw;
   font-family: "Poppins", sans-serif;
   padding-top: 40px;
   color: #ffff;

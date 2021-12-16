@@ -1,4 +1,4 @@
 @mixin parametros ( $margin, $padding, ) { margin: $margin;
 padding:$padding ; }
 
-.section  { @include parametros ( 100px 20px, 60px,)}
+.section  { @include parametros ( 200px 20px, 60px,)}

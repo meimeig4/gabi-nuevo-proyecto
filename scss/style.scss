@@ -27,9 +27,9 @@ body { background-image: url("../multimedia/3d-blanco-esfera.jpg");
   margin-left: 60px;
 }
 
-.bg-nav { color: nth($bg-colores , 2 ); font-size: 15px;}
+.bg-nav {color: nth($bg-colores , 2 ); font-size: 15px;}
 
-#section0 { background-color: nth($bg-colores, 1); height: 50px;  margin-bottom: 100px;}
+#section0 {background-color: nth($bg-colores, 1); height: 50px;  margin-bottom: 100px;}
 
 .item-nav { color: nth($text-colores , 1 );}
 section{   width: 100%;
@@ -74,7 +74,10 @@ padding-top: 20px;
 
 
 
+
+
 .parrafoAboutme { display: flex; justify-content: center; }
+
 
 
 .box {
@@ -105,7 +108,7 @@ padding-top: 20px;
   margin-right: 100px;
 }
 
-.boton { margin:30px 90px;}  
+
 
 .titulos-packs { margin: $margin-general ; text-align: center;}
 
@@ -126,17 +129,14 @@ padding-top: 20px;
 text-align: center; }
 
 
-footer { background: nth($bg-colores , 2 );  height: auto; width: 100w; font-family: 'Poppins', sans-serif;
-padding-top: 40px;color: nth($text-colores, 4 );}
+footer { background: nth($bg-colores , 2 );  height: auto; width: 100vw; font-family: 'Poppins', sans-serif;
+padding-top: 40px;color: nth($text-colores, 4 ); }
 
-
-footer { height: auto; width: 100w; font-family: 'Poppins', sans-serif;
-padding-top: 40px;color: nth($text-colores, 4 );}
 
 .footer-content { display: flex;
 align-items: center;
 justify-content: center; flex-direction: column;
-text-align: center}
+text-align: center ;  }
 
 
 .footer-content img { width: 30px;
