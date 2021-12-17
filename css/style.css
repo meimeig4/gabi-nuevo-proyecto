@@ -114,9 +114,8 @@ h1 {
   color: #ffff;
   font-size: 40px;
   font-family: "Roboto", sans-serif;
-  margin-left: 380px;
-  display: flex;
-  align-items: center;
+  margin-left: 60px;
+  margin-top: 20px;
 }
 
 .bg-nav {

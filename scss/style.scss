@@ -67,7 +67,7 @@ h1 { color: nth($text-colores, 4 );
 
 .titulo-index { color: nth($text-colores, 4 );
   font-size: $font-size-titulos;
-  font-family:'Roboto', sans-serif; margin-left: 380px; display: flex;align-items: center; }
+  font-family:'Roboto', sans-serif; margin-left: 60px;  margin-top: 20px;}
 
 
 .bg-nav {background-color: nth($bg-colores , 2 );}
@@ -83,7 +83,6 @@ h1 { color: nth($text-colores, 4 );
 }
 .parrafoAboutme { display: flex; justify-content: center; }
 
-// section 2;
 
 #section-two  { background-color: nth($bg-colores , 3 ); border-radius: 20px; margin-top: 100px; }
 
