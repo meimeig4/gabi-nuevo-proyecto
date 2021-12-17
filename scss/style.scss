@@ -19,7 +19,7 @@ html {
 body { background-image: url("../multimedia/3d-blanco-esfera.jpg"); 
   background-repeat: no-repeat; width: 100%; height: auto; background-attachment: fixed;}
 
-
+// header;
 
 .logoG4bit {
   display: flex;
@@ -29,7 +29,7 @@ body { background-image: url("../multimedia/3d-blanco-esfera.jpg");
 
 .bg-nav {color: nth($bg-colores , 2 ); font-size: 15px;}
 
-#section0 {background-color: nth($bg-colores, 1); height: 50px;  margin-bottom: 100px;}
+
 
 .item-nav { color: nth($text-colores , 1 );}
 section{   width: 100%;
@@ -58,76 +58,63 @@ section{   width: 100%;
   }
 }
 
-h1 { color: nth($text-colores, 1 );
+h1 { color: nth($text-colores, 4 );
   font-size: $font-size-titulos;
   font-family:'Roboto', sans-serif;
   display: flex; justify-content: center;
-margin-right: 500px;
-padding-top: 20px;
+
 }
+
+.titulo-index { color: nth($text-colores, 4 );
+  font-size: $font-size-titulos;
+  font-family:'Roboto', sans-serif; margin-left: 380px; display: flex;align-items: center; }
+
 
 .bg-nav {background-color: nth($bg-colores , 2 );}
 
-#sectionOne { height: 50vh; 
+// section 0;
+
+#section0 {background-color: nth($bg-colores, 1); height: 50px;  margin-bottom: 100px; }
+
+// section 1;
+
+.section-one  { height: 80vh; background-color: nth($bg-colores , 3 ); border-radius: 20px;
 
 }
-
-
-
-
-
 .parrafoAboutme { display: flex; justify-content: center; }
 
+// section 2;
+
+#section-two  { background-color: nth($bg-colores , 3 ); border-radius: 20px; margin-top: 100px; }
+
+// section 3;
+
+#section-three { background-color: nth($bg-colores , 3 ); border-radius: 20px; margin-top: 100px; margin-bottom: 100px; }
 
 
-.box {
-  
-  border-radius: 6px;
-  color: nth($bg-colores, 4);
-  height: 400px;
-  width: 500px;
-  margin: 60px auto;
-
-}
-
-.box3 {
-  
-  border-radius: 6px;
-  color: nth($bg-colores, 4);
-  height: 600px;
-  width: 500px;
-  padding: 50px 500px; 
-  display: flex; justify-content: center;
-  
-}
-
-.box2 { border-radius: 6px;
-  color: nth($bg-colores, 4);
-  height: 300px;
-  width: 500px;
-  margin-right: 100px;
-}
 
 
+
+// paginas;
+
+.sectionPacks { background-color: nth($bg-colores , 3 ); border-radius: 20px; margin-top: 100px; margin-bottom: 100px;}
 
 .titulos-packs { margin: $margin-general ; text-align: center;}
 
-.encabezado-pack { display: flex; }
+.encabezado-pack { display: flex; justify-content: center; margin-top: 50px;}
 
 .parrafo-promo { padding-left: 90px; font-size: 26px; margin: $margin-general; display: flex; align-items: center;}
 
 
 .parrafo-pack { position: relative; display: flex; align-items: center;}
 
-.image-medio { margin-top: 100px;margin-left: 50px; }
-
-.video { margin-top: 100px;}
+.image-medio { margin: $margin-sections;}
 
 
- 
  .grupo-2 { padding: 15px 10px; display: flex; align-items: center;
 text-align: center; }
 
+// footer ;
 
 footer { background: nth($bg-colores , 2 );  height: auto; width: 100vw; font-family: 'Poppins', sans-serif;
 padding-top: 40px;color: nth($text-colores, 4 ); }
@@ -163,7 +150,7 @@ padding: 20px opx;
 text-align: center;
 }
 
-footer-bottom small{ word-spacing: 2px;
+.footer-bottom small{ word-spacing: 2px;  
 text-transform: capitalize;}
 
 
@@ -174,6 +161,7 @@ text-transform: capitalize;}
   text-decoration: none;
 }
 
+.section {background-color: nth($bg-colores, 1); height: 50px;  margin-bottom: 100px; }
 
 .f1 {
   margin: $margin-general;
