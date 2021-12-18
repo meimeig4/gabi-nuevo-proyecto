@@ -118,6 +118,7 @@ section ul li a:hover {
 @media screen and (max-width: 420px) {
   section .item-nav {
     font-size: 10px;
+    color: #dda1c3;
   }
   section nav-bar {
     width: auto;
@@ -212,6 +213,11 @@ footer {
   color: #ffff;
 }
 
+@media screen and (max-width: 420px) {
+  footer {
+    width: auto;
+  }
+}
 .footer-content {
   display: flex;
   align-items: center;
@@ -240,6 +246,12 @@ footer {
   margin: 1rem 0 3rem 0;
 }
 
+@media screen and (max-width: 420px) {
+  .socials {
+    font-size: 10px;
+    text-align: center;
+  }
+}
 .socials li {
   margin: 0px 10px;
 }
