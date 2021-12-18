@@ -23,7 +23,7 @@ body { background-image: url("../multimedia/3d-blanco-esfera.jpg");
 
 
 header { background-color: nth($bg-colores , 2 ); width: 100%;}
-
+ 
 .logoG4bit {
   display: flex;
   justify-content: left;
@@ -45,6 +45,8 @@ h1 { color: nth($text-colores, 4 );
 
 
 .item-nav { color: nth($text-colores , 1 );}
+
+
 section{   width: 100%;
   
     ul {
@@ -61,6 +63,7 @@ section{   width: 100%;
         }
       }
     } 
+    @media   screen and ( max-width: 420px) { .item-nav { font-size: 10px;}; nav-bar { width: auto; height: auto;}}
   }
 
 

@@ -115,6 +115,15 @@ section ul li a:hover {
   border-radius: 20px;
   padding: 10px 10px;
 }
+@media screen and (max-width: 420px) {
+  section .item-nav {
+    font-size: 10px;
+  }
+  section nav-bar {
+    width: auto;
+    height: auto;
+  }
+}
 
 .titulos:hover {
   transform: translate(10px, 10px);
