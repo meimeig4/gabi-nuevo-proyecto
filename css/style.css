@@ -168,6 +168,13 @@ section ul li a:hover {
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 480px) {
+  .sectionPacks {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
 .titulos-packs {
   margin: 30px 30px;
   text-align: center;
@@ -193,6 +200,18 @@ section ul li a:hover {
   align-items: center;
 }
 
+@media screen and (max-width: 480px) {
+  .p-packs {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .encabezado-pack {
+    display: flex;
+    align-items: flex-start;
+  }
+}
 .image-medio {
   margin: 80px;
 }

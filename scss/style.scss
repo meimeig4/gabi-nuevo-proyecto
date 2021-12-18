@@ -101,6 +101,8 @@ section{   width: 100%;
 
 .sectionPacks { background-color: nth($bg-colores , 3 ); border-radius: 20px; margin-top: 100px; margin-bottom: 100px;}
 
+@media screen and (max-width: 480px) { .sectionPacks { display: flex; justify-content: center; width: 100%; }}
+
 .titulos-packs { margin: $margin-general ; text-align: center;}
 
 .encabezado-pack { display: flex; justify-content: center; margin-top: 50px;}
@@ -109,6 +111,14 @@ section{   width: 100%;
 
 
 .parrafo-pack { position: relative; display: flex; align-items: center;}
+
+
+
+@media screen and (max-width: 480px) { .p-packs{  display: flex; justify-content: center; } }
+
+
+@media screen and (max-width: 480px) { .encabezado-pack{ display: flex; align-items: flex-start;}}
+
 
 .image-medio { margin: $margin-sections;}
 
