@@ -69,15 +69,34 @@ body {
   background-attachment: fixed;
 }
 
+header {
+  background-color: #635a66;
+  width: 100%;
+}
+
 .logoG4bit {
   display: flex;
   justify-content: left;
   margin-left: 60px;
 }
 
-.bg-nav {
-  color: #635a66;
-  font-size: 15px;
+.titulo-index {
+  color: #ffff;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 60px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #ffff;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .item-nav {
@@ -102,26 +121,6 @@ section ul li a:hover {
   transition: all 1s ease-in-out;
 }
 
-h1 {
-  color: #ffff;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  justify-content: center;
-}
-
-.titulo-index {
-  color: #ffff;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  margin-left: 60px;
-  margin-top: 20px;
-}
-
-.bg-nav {
-  background-color: #635a66;
-}
-
 #section0 {
   background-color: #4444;
   height: 50px;
@@ -129,7 +128,7 @@ h1 {
 }
 
 .section-one {
-  height: 80vh;
+  height: auto;
   background-color: #a8a6a6;
   border-radius: 20px;
 }
@@ -196,7 +195,7 @@ h1 {
 }
 
 footer {
-  background: #635a66;
+  background-color: #635a66;
   height: auto;
   width: 100vw;
   font-family: "Poppins", sans-serif;
