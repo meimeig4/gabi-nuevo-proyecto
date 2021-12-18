@@ -256,6 +256,14 @@ footer {
   margin: 0px 10px;
 }
 
+.socials-2 {
+  text-align: center;
+}
+
+.elementos-footer2 {
+  list-style-type: none;
+}
+
 .footer-bottom {
   width: 100vw;
   padding: 20px opx;

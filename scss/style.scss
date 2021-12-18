@@ -63,7 +63,7 @@ section{   width: 100%;
         }
       }
     } 
-    @media   screen and ( max-width: 420px) { .item-nav { font-size: 10px; color: nth($text-colores , 2 )}; nav-bar { width: auto; height: auto;} }
+    @media   screen and ( max-width: 420px) { .item-nav { font-size: 10px; color: nth($text-colores , 2g )}; nav-bar { width: auto; height: auto;} }
   }
 
 
@@ -152,8 +152,13 @@ margin:1rem 0 3rem 0 }
 @media   screen and ( max-width: 420px) { .socials { font-size: 10px; text-align: center;}}
 
 
-.socials li { margin: 0px 10px;
+
+.socials li { margin: 0px 10px; 
 }
+
+.socials-2 { text-align: center; }
+
+.elementos-footer2 { list-style-type: none;  }
 
 .footer-bottom { width: 100vw;
 padding: 20px opx;
