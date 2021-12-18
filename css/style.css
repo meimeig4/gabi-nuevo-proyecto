@@ -197,6 +197,14 @@ section ul li a:hover {
   margin: 80px;
 }
 
+@media screen and (max-width: 420px) {
+  .image-medio {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: auto;
+  }
+}
 .grupo-2 {
   padding: 15px 10px;
   display: flex;
