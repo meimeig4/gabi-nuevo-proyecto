@@ -88,55 +88,41 @@ section{   width: 100%;
 
 .txt-2 { margin-right: 100px;}
 
+// section 2;
 
 #section-two  { background-color: nth($bg-colores , 3 ); border-radius: 20px; margin-top: 100px; }
+
+.parrafo-promo { padding-left: 90px; font-size: 26px; margin: $margin-general; display: flex; align-items: center;}
+
 
 // section 3;
 
 #section-three { background-color: nth($bg-colores , 3 ); border-radius: 20px; margin-top: 100px; margin-bottom: 100px; }
 
 
+.titulos-packs { margin: $margin-general ; text-align: center;}
 
 
 
 // paginas;
 
+
 .sectionPacks { background-color: nth($bg-colores , 3 ); border-radius: 20px; margin-top: 100px; margin-bottom: 100px;}
-
-@media screen and (max-width: 480px) { .sectionPacks { display: flex; justify-content: center; width: 100%; }}
-
-.titulos-packs { margin: $margin-general ; text-align: center;}
-
 
 .encabezado-pack { display: flex; justify-content: center; margin-top: 50px;}
 
 
-.parrafo-promo { padding-left: 90px; font-size: 26px; margin: $margin-general; display: flex; align-items: center;}
+@media screen and (max-width: 480px) { .p-packs{  display: flex; justify-content: center; font-size: 12px;}  .encabezado-pack { font-size: 14px; margin: 0px;} }
 
+.image-medio { margin: $margin-sections; position: relative;}
 
-.parrafo-pack { position: relative; display: flex; align-items: center;}
-
-
-
-
-@media screen and (max-width: 480px) { .p-packs{  display: flex; justify-content: center; font-size: 10px;}  }
-
-
-
-
-
-
-.image-medio { margin: $margin-sections;}
-
-@media screen  and (max-width: 420px ) { .image-medio { display: flex;align-items: center ; width: 50%; height: auto;}
+@media screen  and (max-width: 420px ) { .image-medio { display: flex;align-items: center ; align-items: center; width: 50%; height: auto;}
   
 }
 
-
-
-
  .grupo-2 { padding: 15px 10px; display: flex; align-items: center;
 text-align: center; }
+
 
 // footer ;
 
